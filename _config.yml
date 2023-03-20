@@ -15,18 +15,18 @@ remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: "ko-KR" #언어
-title: "rla_dev" #페이지 타이틀
+locale: "en-US" #언어
+title: "Woozy Devlog" #페이지 타이틀
 title_separator: "|" #페이지 | title 형식 제공
 subtitle: "Learning is a lifestyle, not a phase"
-name: "김영우"
-description: "백엔드 개발자 김영우의 블로그입니다."
+name: "Woozy"
+description: ""
 url: "https://rlasuddn.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "https://github.com/rlasuddn/rlasuddn.github.io.git"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/images/프로필사진.jpg"
-masthead_title: "rla_dev"
+masthead_title: "Woozy Devlog"
 breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
@@ -103,10 +103,10 @@ analytics:
 
 # Site Author
 author:
-  name: "김영우"
+  name: "Woozy"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "백엔드 개발을 하고 있습니다."
-  location: "Republic of Korea"
+  #location: "Republic of Korea"
   email:
   links:
     - label: "Email"
@@ -124,10 +124,10 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/rlasuddn"
+    #      url: "https://github.com/rlasuddn"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/r1aduddn/"
+  #     url: "https://www.instagram.com/r1aduddn/"
 
 # Reading Files
 include:
@@ -255,12 +255,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: #true
       comments: true
-      share: true
+      #share: true
       related: true
-      show_date: true
-      date_format: "%Y-%m"
+      show_date: #true
       sidebar:
         nav: "docs"
   - scope:
