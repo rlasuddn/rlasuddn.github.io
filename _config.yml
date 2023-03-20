@@ -16,7 +16,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "en-US" #언어
-title: "Woozy Devlog" #페이지 타이틀
+title: "Woozy DevLog" #페이지 타이틀
 title_separator: "|" #페이지 | title 형식 제공
 subtitle: "Learning is a lifestyle, not a phase"
 name: "Woozy"
@@ -26,7 +26,7 @@ baseurl: # the subpath of your site, e.g. "/blog"
 repository: "https://github.com/rlasuddn/rlasuddn.github.io.git"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/images/프로필사진.jpg"
-masthead_title: "Woozy Devlog"
+masthead_title: "Woozy DevLog"
 breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
