@@ -10,26 +10,43 @@ main:
     url: /search/
   - title: "By Year"
     url: /year-archive/
+
 docs:
-  - title: "study"
+  - title: "Language"
     children:
-      - title: "js스터디"
-        url: /categories/study-js
-        category: "study-js"
-      - title: "cs스터디"
-        url: /categories/study-cs
-        category: "study-cs"
-  - title: "sample"
+      - title: "JavaScript"
+        url: /categories/javascript
+        category: "javascript"
+      - title: "TypeScript"
+        url: /categories/typescript
+        category: "typescript"
+
+  - title: "Framework"
     children:
-      - title: "블로그 샘플"
-        url: /categories/sample
-        category: "sample"
-# count:
-#   - title: "카테고리"
-#     use: true
-#   - title: "태그"
-#     ues: true
-# - title: "Sample Collections"
-# url: /collection-archive/
-# - title: "Sitemap"
-# url: /sitemap/
+      - title: "NestJs"
+        url: /categories/nestjs
+        category: "nestjs"
+
+  - title: "Computer Science"
+    children:
+      - title: "Computer Science"
+        url: /categories/computer-science
+        category: "cs"
+
+  - title: "Project"
+    children:
+      - title: "CarryDuo"
+        url: /categories/carryduo
+        category: "carryduo"
+
+  - title: "Database"
+    children:
+      - title: "Redis"
+        url: /categories/redis
+        category: "redis"
+
+  - title: "Algorithm"
+    children:
+      - title: "프로그래머스"
+        url: /categories/programmers
+        category: "programmers"
