@@ -1,12 +1,12 @@
 ---
-title: "js스터디"
+title: "Computer Science"
 layout: archive
-permalink: categories/study-js
+permalink: categories/computer-science
 author_profile: true
 types: posts
 ---
 
-{% assign posts = site.categories['study-js']%}
+{% assign posts = site.categories['cs']%}
 {% for post in posts %}
 {% include archive-single.html type=page.entries_layout %}
 {% endfor %}
